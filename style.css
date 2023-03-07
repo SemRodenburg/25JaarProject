@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(Images/bg.avif);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#trouwfoto {
+    width: 500px;
+    height: 900px;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    border-radius: 20%;
+}
+
+#datum {
+    position: absolute;
+    top: 200px;
+    left: 1200px;
+}
+
