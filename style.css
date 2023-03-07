@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(Images/bg.avif);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-container {
+    display: flex;
+}
+
+#trouwfoto {
+    width: 30%;
+    height: 900px;
+    border-radius: 20%;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+#datum {
+    width: 50%;
+    height: 40%;
+    margin-left: 500px;
+    margin-top: 200px;
+}
+
+#text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(87, 87, 87);
+    font-size: 20px;
+    width: 50%;
+    padding-left: 300px;
+    padding-top: 200px;
+}
+
+@media only screen and (max-width: 450px) {
+
+    #trouwfoto {
+        width: 80%;
+        height: 100%;
+        border-radius: 20%;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    #datum {
+        width: 50%;
+        height: 40%;
+        margin-left: 180px;
+        margin-top: 0px;
+    }
+
+    body {
+        background-image: none;
+    }
+
+    #text {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(87, 87, 87);
+        font-size: 20px;
+        width: 50%;
+        padding-left: 50px;
+        padding-top: 0px;
+    }
+
+    .flex-container {
+        display: block;
+    }
+
+}
+
