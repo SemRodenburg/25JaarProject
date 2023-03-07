@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(Images/bg.avif);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#trouwfoto {
+    width: 500px;
+    height: 900px;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    border-radius: 20%;
+}
+
+#datum {
+    position: absolute;
+    top: 200px;
+    left: 1200px;
+}
+
+#text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(87, 87, 87);
+    font-size: 20px;
+    position: absolute;
+    top: 800px;
+    left: 800px;
+}
+
+@media only screen and (max-width: 400px) {
+
+    #trouwfoto {
+        width: 420px;
+        height: 600px;
+        top: 10px;
+        left: 100px;
+    }
+
+    #datum {
+        top: 550px;
+        left: 200px;
+    }
+
+    body {
+        background-image: none;
+    }
+
+    #text {
+        font-size: 12px;
+        top: 970px;
+        left: 100px;
+    }
+
+}
+
